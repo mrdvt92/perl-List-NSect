@@ -35,7 +35,7 @@ my @shuffle=shuffle @deck;
 
 #TODO: cut
 
-#build the kitty first as nsect would keep dealing the extras like for War or Crazy Eights
+#build the kitty first as deal would keep dealing the extras like for War or Crazy Eights
 
 my @kitty=();
 while (@shuffle % $players) {
@@ -45,8 +45,6 @@ while (@shuffle % $players) {
 #deal the hands
 
 my @hands=deal($players, @shuffle);
-
-#Note: nsect did not "deal" the cards since it gave the first player all of thier cards then the second player and so forth.
 
 #play
 
