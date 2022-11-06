@@ -1,5 +1,6 @@
 use ExtUtils::MakeMaker;
 WriteMakefile(
+    LICENSE      => 'mit',
     NAME         => 'List::NSect',
     VERSION_FROM => 'lib/List/NSect.pm',
     AUTHOR       => 'Michael R. Davis (mrdvt)',
