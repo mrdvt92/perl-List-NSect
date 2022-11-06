@@ -2,6 +2,7 @@ MANIFEST
 README.md
 LICENSE
 Changes
+CONTRIBUTING.md
 Makefile.PL
 lib/List/NSect.pm
 t/001_wantarray_nsect.t
