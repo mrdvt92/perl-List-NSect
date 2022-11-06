@@ -38,6 +38,10 @@ jobs:
       run: |
         cpanm -v
         cpanm --installdeps --notest .
+        cpanm --notest Test::CPAN::Changes
+        cpanm --notest Test::Pod::Coverage
+        cpanm --notest Test::Spelling
+        cpanm --notest Test::Pod
 
     - name: Show Errors on Windows
       if:  ${{ failure() && startsWith( matrix.runner, 'windows-')}}
